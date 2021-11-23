@@ -37,7 +37,7 @@
     </head>
 
     <body>
-        <div class="container mt-5">
+        <div class="container mt-5" id="home">
             <div class="text-center p-5 border-bottom" style="height: 400px;">
                 <h2>Anslate</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, officiis. Qui a doloribus
@@ -45,7 +45,7 @@
                     explicabo sapiente beatae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis ipsa quia
                     quo tempore corrupti repudiandae rerum, ipsam alias tempora facere veniam inventore dolor neque
                     maxime asperiores eius officia laborum est?</p>
-                <button class="btn btn-primary" type="button">Ini button</button>
+                <a class="btn btn-dark" href="javascript:void();">Download now</a>
             </div>
             <img src="{{url_for('static', filename='iphone.png')}}" alt="img" height="700" class="mx-auto d-block"
                 style="position: relative; top: -100px;" />
@@ -56,7 +56,7 @@
                         class="mx-auto d-block me-5" />
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div>
+                    <div id="feature">
                         <h3>Ini nama fitur</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Inventore ex voluptas ipsam
                             ullam
@@ -81,7 +81,7 @@
                         class="mx-auto d-block ms-5" />
                 </div>
             </div>
-            <div class="text-center p-5 border-top border-bottom mt-5" style="height: 300px;">
+            <div class="text-center p-5 border-top border-bottom mt-5" style="height: 300px;" id="privacy_policy">
                 <h2>Ini Privacy Policy</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, officiis. Qui a doloribus
                     doloremque molestias, incidunt vero ipsum atque nulla nobis ratione tempore maiores autem nam maxime
@@ -103,17 +103,21 @@
                 </div>
                 <div class="col-md-2 mt-4">
                     <h5>Section</h5>
-                    <small>Home<br>
-                        Feature <br>
-                        Privacy Policy <br>
+                    <small>
+                        <a href="#" class="text-decoration-none" data-bs-target="#home">Home</a>
+                        <br>
+                        <a href="#" class="text-decoration-none" data-bs-target="#feature">Feature</a>
+                        <br>
+                        <a href="#" class="text-decoration-none" data-bs-target="#privacy_policy">Privacy Policy</a>
+                        <br>
                     </small>
                 </div>
                 <div class="col-md-2 mt-4">
                     <h5>Contacts</h5>
                     <small>
-                        Email<br>
+                        <a href="https://anslate.herokuapp.com" class="text-decoration-none">Website</a><br>
                         Phone number <br>
-                        Website <br>
+                        Email <br>
                     </small>
                 </div>
             </div>
