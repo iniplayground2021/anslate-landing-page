@@ -27,6 +27,10 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="{{url_for('static', filename='ms-icon-144x144.png')}}">
         <meta name="theme-color" content="#ffffff">
+        <meta name="title" content="Anslate - Home">
+        <meta name="description"
+            content="Anslate is an app that help patient and doctor communicate in different languages (English and Bahasa Indonesia)">
+
 
         <title>Anslate - Home</title>
         <style>
@@ -40,45 +44,70 @@
         <div class="container mt-5" id="home">
             <div class="text-center p-5 border-bottom" style="height: 400px;">
                 <h2>Anslate</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, officiis. Qui a doloribus
-                    doloremque molestias, incidunt vero ipsum atque nulla nobis ratione tempore maiores autem nam maxime
-                    explicabo sapiente beatae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis ipsa quia
-                    quo tempore corrupti repudiandae rerum, ipsam alias tempora facere veniam inventore dolor neque
-                    maxime asperiores eius officia laborum est?</p>
+                <p>Anslate is an app that help patient and doctor communicate in different languages (English and Bahasa
+                    Indonesia) by live translation, word correction, medical term explanation, transcription, and
+                    conversation history.</p>
                 <a class="btn btn-dark" href="javascript:void();">Download now</a>
             </div>
-            <img src="{{url_for('static', filename='iphone.png')}}" alt="img" height="700" class="mx-auto d-block"
+            <img src="{{url_for('static', filename='anslate-home.png')}}" alt="img" height="700" class="mx-auto d-block"
                 style="position: relative; top: -100px;" />
             <br><br>
             <div class="row mt-5">
                 <div class="col-md-6">
-                    <img src="{{url_for('static', filename='iphone.png')}}" alt="img" height="500"
+                    <img src="{{url_for('static', filename='anslate-2.png')}}" alt="img" height="500"
                         class="mx-auto d-block me-5" />
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div id="feature">
-                        <h3>Ini nama fitur</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Inventore ex voluptas ipsam
-                            ullam
-                            adipisci culpa! <br>Asperiores molestias nulla praesentium, aut vitae fuga<br> et dolor nemo
-                            illum officia ipsam laboriosam aliquid.</p>
+                        <h3>Speech-to-text transcription, live translation, <br> and Word Suggestion based on text
+                            transcription.
+                        </h3>
+                        <br>
+                        <p>Different language and accent make user face difficulty <br> to explain their health
+                            condition
+                            clearly to doctor. <br>
+                            We provide word suggestions if there is any mistake from transcription results <br> and also
+                            help live conversation translation for both of patient and doctor’s languages.
+                        </p>
                     </div>
                 </div>
             </div>
-            <br><br><br>
+            <br><br>
             <div class="row mt-5">
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div>
-                        <h3>Ini nama fitur</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Inventore ex voluptas ipsam
-                            ullam
-                            adipisci culpa! <br>Asperiores molestias nulla praesentium, aut vitae fuga<br> et dolor nemo
-                            illum officia ipsam laboriosam aliquid.</p>
+                        <h3>Speak or choose the answer based <br> on doctor question</h3>
+                        <br>
+                        <p>The patient has difficulty answering closed questions which <br> leads ambiguous to answer
+                            <br>
+                            We help to classify doctor question based on type of answer, <br> a simple answer or
+                            range-like
+                            answer so the answer would be more precise
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="{{url_for('static', filename='iphone.png')}}" alt="img" height="500"
+                    <img src="{{url_for('static', filename='anslate-close-question.png')}}" alt="img" height="500"
                         class="mx-auto d-block ms-5" />
+                </div>
+            </div>
+            <br><br>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <img src="{{url_for('static', filename='anslate-history.png')}}" alt="img" height="500"
+                        class="mx-auto d-block me-5" />
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div id="feature">
+                        <h3>Conversation history with <br> Medical term information & explanation</h3>
+                        <br>
+                        <p>Patient tend to forget doctor’s explanation and couldn’t understand some medical statement
+                            easily, especially because of language barriers. <br>
+                            If the user want to consult with doctor, using history user can check <br> again what the
+                            conversation before with the doctor so user will not be missed <br> with the detail. We also
+                            provide medical term information to get definitions <br> and detailed information about
+                            medical terminology in the conversation <br> so the user can understand.</p>
+                    </div>
                 </div>
             </div>
             <div class="text-center p-5 border-top border-bottom mt-5" style="height: 300px;" id="privacy_policy">
@@ -89,14 +118,13 @@
                     quo tempore corrupti repudiandae rerum, ipsam alias tempora facere veniam inventore dolor neque
                     maxime asperiores eius officia laborum est?</p>
             </div>
-            <img src="{{url_for('static', filename='iphone.png')}}" alt="img" height="700" class="mx-auto d-block"
+            <img src="{{url_for('static', filename='anslate-home.png')}}" alt="img" height="700" class="mx-auto d-block"
                 style="position: relative; top: -100px;" />
             <br><br>
             <div class="row border-top">
                 <div class="col-md-8 mt-4">
                     <h5>Anslate</h5>
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolorum deleniti maiores
-                        pariaturaccusamus <br>beatae nihil mollitia.</small>
+                    <small>Just Talk. Make it easy.</small>
                     <br><br>
                     <img src="{{url_for('static', filename='app-store-button.png')}}" alt="img" width="100">
 
